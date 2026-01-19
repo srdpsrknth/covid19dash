@@ -1,3 +1,8 @@
+# CSV data files
+*.csv
+raw-data/
+clean-data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

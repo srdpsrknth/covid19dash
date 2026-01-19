@@ -13,6 +13,7 @@ This repository is a portfolio-ready data analytics project that demonstrates ho
 2. **Data cleaning**: Normalize column names, parse dates, remove redundant fields, and aggregate to national and provincial levels.
 3. **Dataset publishing**: Export raw datasets to `raw-data/` and curated datasets to `clean-data/` for repeatable analysis.
 4. **Exploratory analysis & visualization**: Use notebooks under `plot-scripts/` for charting and geospatial exploration, plus Dash prototypes for dashboard interactions.
+5. **Data quality note**: Daily deaths from the RIVM daily feed are currently ignored because the source values are unreliable; daily death series are left empty in the cleaned datasets and dashboard, while cumulative deaths remain available from the cumulative feed.
 
 ## Analyses Included
 - **National time series trends**: Daily and cumulative cases, hospital admissions, and deaths over time.
